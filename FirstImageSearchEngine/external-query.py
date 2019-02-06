@@ -5,6 +5,7 @@ import argparse
 import cPickle
 import cv2
 
+
 ap = argparse.ArgumentParser()
 ap.add_argument("-d", "--dataset", required = True,
         help = "Path to the directory that contains the images we just indexed")
